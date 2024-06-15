@@ -1,0 +1,23 @@
+.footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    line-height: 31px;
+    background-color: #333;
+    display: block;
+}
+.footer .navbar-nav {
+        flex-direction: row;    
+}
+.footer ul li {
+    padding: 0 1%;
+}
+.footer navbar-collapse {
+    position: relative;
+    left: 12%;
+}
+.copyright {
+    position: static;
+    margin-left: 1%;
+}

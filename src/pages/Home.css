@@ -1,0 +1,13 @@
+.display-3 {
+  color: white;
+}
+.home-list-container {
+  position: inherit;
+  width: 500px;
+  height: auto;
+}
+@media only screen and (max-width: 600px) {
+  .home-list-container {
+    width: 100%;
+  }
+}

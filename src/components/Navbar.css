@@ -1,0 +1,70 @@
+.navbar-brand {
+  color: #333;
+}
+.webName {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  left: 7%;
+}
+a {
+  color: #aaa;
+  /* font-weight: 200; */
+}
+.navbar-toggler-icon {
+  display: initial;
+  color: white;
+}
+
+.navbar {
+  border-bottom: solid 1px white;
+  background-color: #f47351;
+}
+/* @media only screen and (max-width: 414px){
+  .webName {
+    color: white;
+    font-size: 20px;
+    left: 5%;
+  }
+}
+@media only screen and (min-width: 991px){
+  .webName {
+    font-size: 20px;
+    left: 20%;
+  }
+} */
+
+@media only screen and (max-width: 991px){
+  /* .webName {
+    font-size: 20px;
+    left: 10%;
+  } */
+  .navbar {
+    height: 50px;
+  }
+.container-menu-item {  
+  /* border-top: solid 1px white; */
+  position: absolute;
+  background: #f47351;
+  width: 100%;
+  top: 50px;
+  left: 0%;
+  z-index: 3;
+}
+
+.navbar-collapse{
+  margin-left: 15px;
+}
+
+}
+
+@media only screen and (max-width: 650px){
+  .navbar-nav {
+    font-size: 11px;
+  }
+}
+.navbar-collapse a{
+  color: white;
+}
+
+

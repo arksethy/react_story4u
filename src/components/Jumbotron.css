@@ -1,0 +1,96 @@
+.jumbotron {
+  background-image: url(../images/ksd.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: white;
+}
+@media only screen and (max-width: 767px){
+  .jumbotron {    
+    /* height: 202px; */
+    height: 136px;
+    background-position-y: -6px;
+  }
+}
+@media only screen and (min-width: 768px){
+  .jumbotron {    
+    height: 235px;
+    background-position-y: -8px;
+  }
+}
+@media only screen and (min-width: 1125px){
+  .jumbotron {    
+    height: 235px;
+    background-position-y: -45px;
+  }
+}
+.satsang {
+  background-image: url(../images/satsang.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: white;
+}
+@media only screen and (max-width: 767px){
+  .satsang {    
+    height: 136px;
+  }
+}
+@media only screen and (min-width: 768px){
+  .satsang {    
+    height: 235px;
+    background-position-y: -18px;
+  }
+}
+@media only screen and (min-width: 1125px){
+  .satsang {    
+    height: 235px;
+    background-position-y: -45px;
+  }
+}
+.badela-satsang {
+  background-image: url(../images/badela-satsang.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: white;
+}
+@media only screen and (max-width: 767px){
+  .badela-satsang {    
+    height: 136px;
+    background-position-y: -21px;
+  }
+}
+@media only screen and (min-width: 768px){
+  .badela-satsang {    
+    height: 235px;
+    background-position-y: -48px;
+  }
+}
+@media only screen and (min-width: 1125px){
+  .badela-satsang {    
+    height: 235px;
+    background-position-y: -88px;
+  }
+}
+.prarthna {
+  background-image: url(../images/prarthna.jfif);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: white;
+}
+@media only screen and (max-width: 767px){
+  .prarthna {    
+    height: 136px;
+    background-position-y: -19px;
+  }
+}
+@media only screen and (min-width: 768px){
+  .prarthna {    
+    height: 235px;
+    background-position-y: -54px;
+  }
+}
+@media only screen and (min-width: 1125px){
+  .prarthna {    
+    height: 235px;
+    background-position-y: -240px;
+  }
+}
