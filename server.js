@@ -14,7 +14,7 @@ var __PAGE_TITLE__ = '';
 var metaTags = function (body) {
   // console.log(“Fetching host info from:”, host)
   let htmlContent = fs.readFileSync('./build/index.html', 'utf8');
-  htmlContent = htmlContent.replace(__PAGE_TITLE__, body.title);
+  htmlContent = htmlContent.replace('Story4u', body.title);
   htmlContent = htmlContent.replace('__DESCRIPTION__', body.desc);
   htmlContent = htmlContent.replace(`__FB_TITLE__`, body.fb_title);
   htmlContent = htmlContent.replace(`__FB_DESCRIPTION__`, body.fb_desc);
