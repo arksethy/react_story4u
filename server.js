@@ -10,7 +10,7 @@ const path = require('path');
 const app = express();
 const fs = require('fs');
 const imgJgd = `https://scontent.fpat3-3.fna.fbcdn.net/v/t39.30808-6/448401656_7690092834432138_5322307876781824244_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=X1Go0ZbsALwQ7kNvgGtUA8e&_nc_ht=scontent.fpat3-3.fna&oh=00_AYDQXjXjKCa_sj1Hn_zI5-eLK0Tp3tEpX_kPmBOsNGomzA&oe=66749936`;
-const imgbadela = `https://scontent.fpat3-2.fna.fbcdn.net/v/t39.30808-6/448435297_7690092881098800_1388818815833506857_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=urBjMwAlEnMQ7kNvgHEWDA1&_nc_ht=scontent.fpat3-2.fna&oh=00_AYAJF2CgcMwjpt2v3i03f3nexRJlNHCPlkeRnuJXqp_Q5g&oe=667473F7`;
+const imgbadela = `http://www.badeladham.in/wp-content/uploads/2020/02/cropped-PicsArt_01-07-03.06.52-1.jpg`;
 
 const PORT = 3000;
 var __PAGE_TITLE__ = '';
