@@ -9,7 +9,7 @@ const path = require('path');
 //if you want to hit api in server.js, use node-fetch.Install it using npm i --save node-fetch
 const app = express();
 const fs = require('fs');
-const imgJgd = path.join(__dirname, './src/images/jgd1.jpeg');
+const imgJgd = path.join('./src/images/jgd1.jpeg');
 const imgbadela = path.join(__dirname, './src/images/badela-satsang.jpeg');
 
 const PORT = 3000;
