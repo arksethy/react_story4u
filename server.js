@@ -9,6 +9,9 @@ const path = require('path');
 //if you want to hit api in server.js, use node-fetch.Install it using npm i --save node-fetch
 const app = express();
 const fs = require('fs');
+const imgJgd = path.join(__dirname, './src/images/jgd1.jpeg');
+const imgbadela = path.join(__dirname, './src/images/badela-satsang.jpeg');
+
 const PORT = 3000;
 var __PAGE_TITLE__ = '';
 var metaTags = function (body) {
@@ -18,7 +21,7 @@ var metaTags = function (body) {
   htmlContent = htmlContent.replace('__DESCRIPTION__', body.desc);
   htmlContent = htmlContent.replace(`__FB_TITLE__`, body.fb_title);
   htmlContent = htmlContent.replace(`__FB_DESCRIPTION__`, body.fb_desc);
-  // htmlContent = htmlContent.replace(`__img__`, body.img);
+  htmlContent = htmlContent.replace(`__img__`, body.img);
   htmlContent = htmlContent.replace(
     `__PAGE_NO_SCRIPT__`,
     `<p>Javascript doesn’t work</p>`
@@ -38,7 +41,7 @@ app.get('/', (req, res) => {
 जिला अलवर में सत्संग व नामदान दिया। अपने संदेश में परम पूज्य स्वामी जी
 महाराज ने कहा कि उस परमात्मा ने, खुदा ने आदमी को बनाया। आपको मनुष्य शरीर
 देकर सब अधिकार आपको दे दिऐ अपने हाथ में कुछ भी नहीं रखा।`,
-    // img: imgJgd,
+    img: imgJgd,
   });
   res.send(htmlData);
 });
@@ -54,7 +57,7 @@ app.get('/jgd-satsang', (req, res) => {
 जिला अलवर में सत्संग व नामदान दिया। अपने संदेश में परम पूज्य स्वामी जी
 महाराज ने कहा कि उस परमात्मा ने, खुदा ने आदमी को बनाया। आपको मनुष्य शरीर
 देकर सब अधिकार आपको दे दिऐ अपने हाथ में कुछ भी नहीं रखा।`,
-    // img: imgJgd,
+    img: imgJgd,
   });
   res.send(htmlData);
 });
@@ -70,7 +73,7 @@ app.get('/jgd-satsang/:id', (req, res) => {
 जिला अलवर में सत्संग व नामदान दिया। अपने संदेश में परम पूज्य स्वामी जी
 महाराज ने कहा कि उस परमात्मा ने, खुदा ने आदमी को बनाया। आपको मनुष्य शरीर
 देकर सब अधिकार आपको दे दिऐ अपने हाथ में कुछ भी नहीं रखा।`,
-    // img: imgJgd,
+    img: imgJgd,
   });
   res.send(htmlData);
 });
@@ -94,7 +97,7 @@ app.get('/badela-satsang', (req, res) => {
 चरण को सेवै सुरत प्यारी, बन जाये सतगुरु जी की दुलारी |
 शीश धरे सतगुरु चरनन में |
 झूले वो तो अझर मझारी, सतगुरु नामी की बन जाये प्यारी |`,
-    // img: imgbadela,
+    img: imgbadela,
   });
   res.send(htmlData);
 });
@@ -118,7 +121,7 @@ app.get('/badela-satsang/:id', (req, res) => {
 चरण को सेवै सुरत प्यारी, बन जाये सतगुरु जी की दुलारी |
 शीश धरे सतगुरु चरनन में |
 झूले वो तो अझर मझारी, सतगुरु नामी की बन जाये प्यारी |`,
-    // img: imgbadela,
+    img: imgbadela,
   });
   res.send(htmlData);
 });
