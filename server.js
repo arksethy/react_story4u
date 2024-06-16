@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 
-// import imgJgd from './src/images/jgd1.jpeg';
+ import imgJgd from './src/images/jgd1.jpeg';
 // import imgbadela from './src/images/badela-satsang.jpeg';
 // import imgJgd from './src/images/jgd1.jpeg';
 // import imgJgd from './src/images/jgd1.jpeg';
