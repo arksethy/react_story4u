@@ -41,7 +41,7 @@ class Listings extends Component {
 
   return(
       <div style={{minHeight: '700px'}}>
-          <Jumbotron title="Servey" subtitle=""/>
+          <Jumbotron title="Survey" subtitle=""/>
           {this.state.isLoading ? <div className="loader-container">
                   <CircularLoader />
                 </div> : <div className="container" style={{'min-height': '400px', 'font-size': 'larger', 'line-height': '30px'}}>
