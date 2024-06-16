@@ -127,7 +127,7 @@ app.get('/survey/666f12428c87821769718adf',(req,res)=>{
     desc: `क्या परम संत बाबा जयगुरुदेव जी महाराज, शशरीर हाजिर-नाजिर हैं?`,
     fb_title: 'क्या परम संत बाबा जयगुरुदेव जी महाराज, शशरीर हाजिर-नाजिर हैं?',
     fb_desc: `क्या परम संत बाबा जयगुरुदेव जी महाराज, शशरीर हाजिर-नाजिर हैं?`,
-    img: 'https://raw.githubusercontent.com/arksethy/react_story4u/main/survey/survey-1.png',
+    img: 'https://raw.githubusercontent.com/arksethy/react_story4u/main/survey/survey2.jpeg',
   });
   res.send(htmlData);
 })
@@ -137,7 +137,7 @@ app.get('/survey/666f12588c87821769718ae0',(req,res)=>{
     desc: `परम संत बाबा जयगुरुदेव जी महाराज का अधूरा कार्य कौन पूरा करेगा?`,
     fb_title: 'परम संत बाबा जयगुरुदेव जी महाराज का अधूरा कार्य कौन पूरा करेगा?',
     fb_desc: `परम संत बाबा जयगुरुदेव जी महाराज का अधूरा कार्य कौन पूरा करेगा?`,
-    img: 'https://raw.githubusercontent.com/arksethy/react_story4u/main/survey/survey-2.png',
+    img: 'https://raw.githubusercontent.com/arksethy/react_story4u/main/survey/survey1.jpeg',
   });
   res.send(htmlData);
 })
