@@ -51,7 +51,9 @@ class App extends Component {
             <Route path="/login" component={Login} />
             <Route exact path="/gif" component={Gif} />
             <Route exact path="/gif/jgd" component={Stori4u} />
+            <Route exact path="/gif/jgd/:id" component={Stori4u} />
             <Route exact path="/gif/sjgd" component={GaneshJi} />
+            <Route exact path="/gif/sjgd/:id" component={GaneshJi} />
             <Route exact path="/gif/create" component={CreateGif} />
             <Route exact path="/gif/:id" component={CreateGif} />
             <Route path="/myPage" component={MyPage} />
