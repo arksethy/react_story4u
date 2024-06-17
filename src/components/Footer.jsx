@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer = withRouter(({location:{pathname}})=> {
     return (
-      !(pathname == '/gif/jgd' || pathname == '/gif/sjgd') && <footer className="footer">
+      !(pathname.includes('gif/')) && <footer className="footer">
         <div className="container">
         <div className="navbar-collapse" id="footer">
             <ul className="navbar-nav ml-auto">              
