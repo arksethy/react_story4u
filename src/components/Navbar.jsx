@@ -23,7 +23,7 @@ const Navbar = withRouter(({location:{pathname}}) => {
 
   
   return (
-    !(pathname == '/gif/jgd' || pathname == '/gif/sjgd') && <nav className="navbar navbar-toggleable-md">
+    !(pathname.includes('gif/')) && <nav className="navbar navbar-toggleable-md">
       <div className="webName">भारत और अध्यात्म</div>
       <button
         style={{ outline: 'none' }}
