@@ -69,7 +69,7 @@ class Jivni extends Component {
         ? 'prarthna'
         : url === '/jivani'
         ? 'jumbotron'
-        : '';
+        : 'jumbotron';
 
     return (
       <div style={{ backgroundColor: '', width: '100%', minHeight: '700px' }}>

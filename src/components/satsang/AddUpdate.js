@@ -22,11 +22,17 @@ class AddUpdate extends Component {
     isMenuSelected: true,
     options: [
       { id: 0, name: 'select' },
+      { id: 8, name: 'नवीन सुचनाये' },
       { id: 1, name: 'स्वामी जी सत्संग' },
       { id: 2, name: 'बड़ेला-धाम सत्संग' },
+      { id: 11, name: 'world message' },
       { id: 3, name: 'प्रार्थना संग्रह' },
       { id: 4, name: 'कहानियां' },
       { id: 5, name: 'जीवन-परिचय' },
+      { id: 6, name: 'बड़ेला-धाम परिचय' },
+      { id: 7, name: 'निज अंतर-अनुभव' },
+      { id: 9, name: 'स्वामी जी फोटो गैलरी' },
+      { id: 10, name: 'बड़ेला-धाम फोटो गैलरी' },
     ],
     isLoading: true,
   };

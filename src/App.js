@@ -66,11 +66,23 @@ class App extends Component {
             <Route exact path="/badela-satsang" component={JgdSatsangList} />
             <Route exact path="/prarthna" component={JgdSatsangList} />
             <Route exact path="/jivani" component={JgdSatsangList} />
+            <Route exact path="/navin-suchnaye" component={JgdSatsangList} />
+            <Route exact path="/badela-dham" component={JgdSatsangList} />
+            <Route exact path="/nij-anubhav" component={JgdSatsangList} />
+            <Route exact path="/jgd-pic" component={JgdSatsangList} />
+            <Route exact path="/badela-pic" component={JgdSatsangList} />
+            <Route exact path="/world-message" component={JgdSatsangList} />
             <Route path="/jgd-satsang/:id" component={Jivni} />
             <Route path="/badela-satsang/:id" component={Jivni} />
             <Route path="/prarthna/:id" component={Jivni} />
             <Route path="/jivani/:id" component={Jivni} />
             <Route path="/jgd-story/:id" component={Jivni} />
+            <Route exact path="/navin-suchnaye/:id" component={Jivni} />
+            <Route exact path="/badela-dham/:id" component={Jivni} />
+            <Route exact path="/nij-anubhav/:id" component={Jivni} />
+            <Route exact path="/jgd-pic/:id" component={Jivni} />
+            <Route exact path="/badela-pic/:id" component={Jivni} />
+            <Route exact path="/world-message/:id" component={Jivni} />
             <Route exact path="/satsang/add" component={AddUpdateSatsang} />
             <Route path="/satsang/:id" component={AddUpdateSatsang} />
             <Route exact path="/survey" component={Listing} />

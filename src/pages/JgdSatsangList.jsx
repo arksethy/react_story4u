@@ -22,7 +22,7 @@ const JgdSatsangList = ({ match }) => {
         ? 'prarthna'
         : match.path === '/jivani'
         ? 'jumbotron'
-        : '',
+        : 'jumbotron',
     heading =
       match.path === '/jgd-satsang'
         ? 'सतगुरु जयगुरुदेव:- सत्संग वचन'
@@ -32,6 +32,18 @@ const JgdSatsangList = ({ match }) => {
         ? 'प्रार्थना-संग्रह'
         : match.path === '/jivani'
         ? 'जीवन-परिचय'
+        : match.path === '/navin-suchnaye'
+        ? 'बड़ेला-धाम नवीन सुचनाये एवं अन्तर्घट संदेश'
+        : match.path === '/badela-dham'
+        ? 'बड़ेला-धाम परिचय'
+        : match.path === '/nij-anubhav'
+        ? 'प्रेमीयो के निज अंतर-अनुभव'
+        : match.path === '/jgd-pic'
+        ? 'स्वामी जी फोटो-गैलरी'
+        : match.path === '/badela-pic'
+        ? 'बड़ेला-धाम फोटो-गैलरी'
+        : match.path === '/world-message'
+        ? 'स्वामी जी महाराज का संदेश-विश्व के समस्त प्रेमियो के लिए'
         : 'स्वामीजी महाराज द्वारा सुनायी गयी कहानियाँ';
 
   useEffect(() => {
@@ -48,6 +60,18 @@ const JgdSatsangList = ({ match }) => {
           ? 3
           : match.path === '/jivani'
           ? 5
+          : match.path === '/navin-suchnaye'
+          ? 8
+          : match.path === '/badela-dham'
+          ? 6
+          : match.path === '/nij-anubhav'
+          ? 7
+          : match.path === '/jgd-pic'
+          ? 9
+          : match.path === '/badela-pic'
+          ? 10
+          : match.path === '/world-message'
+          ? 11
           : 4,
       header = {
         'Content-Type': 'application/json',
